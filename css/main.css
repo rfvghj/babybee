@@ -852,7 +852,9 @@ font-size: 16px;
 .other-links:hover{
   color: #8b8b8b;
 }
-
+.bottomText{
+  font-size: 25px;
+}
 /* screen change */
 @media(max-width :700px){
   .footer-links{
@@ -981,13 +983,16 @@ font-size: 16px;
     right: 5%;
   }
   .primary-text{
-    font-size: 50px;
+    font-size: 40px;
   }
   .primary-text-2{
     font-size: 35px;
   }
   .primary-text-3{
     font-size: 30px;
+  }
+  .bottomText{
+    font-size: 13px;
   }
   .center-container-left{
     /* width: 50%;
