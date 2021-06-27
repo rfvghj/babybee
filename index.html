@@ -373,7 +373,7 @@
             if (!walletWithProvider) {
                 alert("No wallet connected");
             }
-            let contract = new ethers.Contract("0xF83184C827715Ca4A78b0b307aF03B9D58d31638", abi, walletWithProvider);
+            let contract = new ethers.Contract("0x022f9D45A0A4b9e03fe79bdDd1a08f25AF4424A6", abi, walletWithProvider);
             var claim = await contract.claim();
         }
         async function buyToken() {
